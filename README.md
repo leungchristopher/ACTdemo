@@ -4,7 +4,10 @@ A demonstration of using ACT (action-chunking with transformers) on an S0-100 ar
 Task preview:
 <img src="./assets/task_preview.png" alt="Task Preview" width="100%">
 Demo:
-https://github.com/user-attachments/assets/2237c4b9-b6f6-4760-9da2-c2fceb16afbb
+
+
+https://github.com/user-attachments/assets/868a4a2c-45b5-4ab5-947f-f40661d8ce55
+
 
 ## Overview
 Pick paths/hyperparameters at `configs/act_flute.json`
