@@ -4,8 +4,7 @@ A demonstration of using ACT (action-chunking with transformers) on an S0-100 ar
 Task preview:
 <img src="./assets/task_preview.png" alt="Task Preview" width="100%">
 Demo:
-<video src="./assets/expert_preview.mp4" controls width="100%">
-</video>
+https://github.com/user-attachments/assets/2237c4b9-b6f6-4760-9da2-c2fceb16afbb
 
 ## Overview
 Pick paths/hyperparameters at `configs/act_flute.json`
@@ -19,11 +18,6 @@ Pick paths/hyperparameters at `configs/act_flute.json`
 | `corrections.py` | Optional corrective expert and collection near the grasp region |
 
 Adopted conventions:
-
-
-https://github.com/user-attachments/assets/2237c4b9-b6f6-4760-9da2-c2fceb16afbb
-
-
 - State/action order: Rotation, Pitch, Elbow, Wrist_Pitch, Wrist_Roll, Jaw.
 - Actions are absolute joint position targets in radians at 50 Hz.
 - `observation[t]` is captured before `action[t]` is applied.
