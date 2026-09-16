@@ -1,7 +1,14 @@
 # ACT demo
 A demonstration of using ACT (action-chunking with transformers) on an S0-100 arm to lift a champagne flute off a table, flipping it, and setting it on the floor.
+## Previews
+Task preview:
+<img src="./assets/task_preview.png" alt="Task Preview" width="100%">
+Demo:
+<video src="./assets/expert_preview.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
 
-Files that may be of interest:
+## Overview
 Pick paths/hyperparameters at `configs/act_flute.json`
 
 | File | Description |
@@ -13,8 +20,6 @@ Pick paths/hyperparameters at `configs/act_flute.json`
 | `corrections.py` | Optional corrective expert and collection near the grasp region |
 
 Adopted conventions:
-
-## Data and control conventions
 
 - State/action order: Rotation, Pitch, Elbow, Wrist_Pitch, Wrist_Roll, Jaw.
 - Actions are absolute joint position targets in radians at 50 Hz.
