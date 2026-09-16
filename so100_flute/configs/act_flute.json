@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "repo_id": "local/so100_flute",
+    "root": "data/lerobot_flute",
+    "image_transforms": {"enable": false},
+    "use_imagenet_stats": true,
+    "video_backend": "pyav",
+    "eval_split": 0.0
+  },
+  "policy": {
+    "type": "act",
+    "device": null,
+    "push_to_hub": false,
+    "n_obs_steps": 1,
+    "chunk_size": 100,
+    "n_action_steps": 16,
+    "n_decoder_layers": 7,
+    "optimizer_lr": 0.00002,
+    "optimizer_lr_backbone": 0.00002,
+    "optimizer_weight_decay": 0.0001,
+    "temporal_ensemble_coeff": null,
+    "use_amp": false
+  },
+  "batch_size": 64,
+  "steps": 200000,
+  "use_policy_training_preset": true,
+  "scheduler": null,
+  "output_dir": "outputs/act_flute",
+  "job_name": "act_flute",
+  "seed": 42,
+  "num_workers": 4,
+  "prefetch_factor": 2,
+  "persistent_workers": true,
+  "dataloader_multiprocessing_context": "spawn",
+  "log_freq": 100,
+  "save_freq": 2000,
+  "save_checkpoint": true,
+  "env_eval_freq": 0,
+  "eval_steps": 0,
+  "wandb": {"enable": false}
+}
