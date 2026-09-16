@@ -3,6 +3,14 @@ A demonstration of using ACT (action-chunking with transformers) on an S0-100 ar
 ## Previews
 Task preview:
 <img src="./assets/task_preview.png" alt="Task Preview" width="100%">
+Trained trajectory:
+
+
+https://github.com/user-attachments/assets/3ea78f4f-9332-4fd9-b8ba-60f7f34b8292
+
+
+
+
 Demo:
 
 
